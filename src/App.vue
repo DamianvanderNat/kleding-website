@@ -1,31 +1,32 @@
 <template>
+  <div class="app">
+    <Navigation />
+    <router-view />
+  </div>
  <h1>{{ title }}</h1>
- <Modal />
 </template>
 
-<script setup>
+<script>
 import { createApp } from 'vue';
-import Modal from './components/Modal.vue';
-createApp({
+import Home from './Home.vue';
+import Navigation from './components/Navigation.vue';
+export default{
+  name: "App",
   components: {
-    Modal
-  },
-  data() {
-    return {
-      title: 'My first vue App'
-    }
+    Navigation,
+    Home,
   }
-})
-
-
-
+}
 
 </script>
 
 
 
-<style scoped>
+<style>
 .h1{
   size: 50%;
+}
+.template {
+  background-color: white;
 }
 </style>
