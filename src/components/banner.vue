@@ -21,7 +21,7 @@
                 </div>
               </div>
               <div class="img-container">
-                <img src="@/assets/images/banner3." alt="" />
+                <img src="@/assets/images/banner3.png" alt="" />
                 <div class="img-content">
                   <h3>men</h3>
                 </div>
@@ -70,6 +70,10 @@
   <script setup></script>
   
   <style scoped>
+  body {
+  max-width: 100%;
+  max-height: 100%;
+  } 
   img {
     height: 100%;
   }
