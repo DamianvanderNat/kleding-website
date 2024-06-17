@@ -1,32 +1,39 @@
 <template>
   <div class="app">
-    <Navigation />
-    <router-view />
+    <Navigation/>
+    <RouterView />
   </div>
- <h1>{{ title }}</h1>
 </template>
 
 <script>
-import { createApp } from 'vue';
-import Home from './Home.vue';
 import Navigation from './components/Navigation.vue';
-export default{
+import { RouterView } from 'vue-router';
+
+export default {
   name: "App",
   components: {
     Navigation,
-    Home,
   }
-}
-
+};
 </script>
 
-
-
-<style>
-.h1{
-  size: 50%;
+<style lang="scss">
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
-.template {
-  background-color: white;
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  background-color: #f1f1f1;
+}
+.container {
+  padding: 0 20px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 </style>
