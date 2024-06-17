@@ -4,5 +4,5 @@
   </div>
 </template>
 <script setup>
-import Homeview from "./view/homeview.vue";
+import Homeview from "./view/Home.vue";
 </script>
