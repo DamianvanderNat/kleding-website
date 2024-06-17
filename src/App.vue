@@ -1,10 +1,8 @@
 <template>
   <div>
-      <banner />
-      <featured />
+      <Homeview />
   </div>
 </template>
 <script setup>
-import banner from "./components/banner.vue";
-import featured from "./components/featured.vue";
+import Homeview from "./view/homeview.vue";
 </script>
