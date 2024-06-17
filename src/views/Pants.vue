@@ -1,3 +1,5 @@
 <template>
-    <div>   </div>
+    <div>  
+        here come the pants
+    </div>
 </template>
