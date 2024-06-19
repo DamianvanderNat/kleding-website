@@ -5,3 +5,22 @@
     max-width: 350px;
     max-height: 350px;
 }
+.about-content-box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20%;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    max-width: 50%;
+}
+.about-img{
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+}
+.about-content-text{
+    white-space: pre-wrap;
+}
