@@ -81,6 +81,7 @@
   .banner {
     border-bottom: 2px solid #f8f8f8;
     margin-bottom: 100px;
+    padding: 35px;
   }
   .banner .container {
     max-width: calc(1250px - 130px);
