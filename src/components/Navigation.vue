@@ -6,19 +6,27 @@
            </div>
            <ul v-show="!mobile" class="navigation">
                <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">About</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">Team</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">Shop</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Bikinis' }">Bikinis</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Dresses' }">Dresses</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Shirts' }">Shirts</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Shoes' }">Shoes</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Suits' }">Suits</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Pants' }">Pants</router-link></li>
+               <li><router-link class="link" :to="{ name: 'About' }">About</router-link></li>
            </ul>
            <div class="icon">
                <i @click="toggleMobileNav" v-show="mobile"  :class="{'icon-active' : mobileNav}"><fa icon="bars"/></i>
            </div>
            <Transition name="mobile-nav">
                <ul v-show="mobileNav" class="dropdown-nav">
-               <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">About</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">Team</router-link></li>
-               <li><router-link class="link" :to="{ name: '' }">Shop</router-link></li>
+                <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Bikinis' }">Bikinis</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Dresses' }">Dresses</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Shirts' }">Shirts</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Shoes' }">Shoes</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Suits' }">Suits</router-link></li>
+               <li><router-link class="link" :to="{ name: 'Pants' }">Pants</router-link></li>
+               <li><router-link class="link" :to="{ name: 'About' }">About</router-link></li>
            </ul> 
            </Transition>
        </nav>
