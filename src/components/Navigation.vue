@@ -2,7 +2,7 @@
     <header :class="{ 'scrolledNav': scrolledNav }">
        <nav>
            <div class="branding">
-               <img src="../assets/placeholder.png" alt=""/>
+               <img src="../assets/images/placeholder.png" alt=""/>
            </div>
            <ul v-show="!mobile" class="navigation">
                <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
