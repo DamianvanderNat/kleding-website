@@ -3,20 +3,20 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
     flex-wrap: wrap;
     
 }
-.img-content{
-    max-width: 350px;
-    max-height: 350px;
+.img-content-pr{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
 .box {
     background-color: rgb(161, 238, 242);
     border: 1px solid #ccc;
     border-radius: 8px;
-    width: 22%;
+    width: 20%;
     margin: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -24,8 +24,6 @@
 ;
 }
 .box img {
-    width: 100%;
-    height: auto;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
 }
