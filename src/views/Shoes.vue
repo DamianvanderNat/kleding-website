@@ -5,37 +5,37 @@
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div> 
-      <div class="box" @click="clickMethodShoes1">
+      <div class="box" @click="clickMethodShoes2">
        <img class="img-content-pr" src="@/assets/images/shoes2.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1">
+      <div class="box" @click="clickMethodShoes3">
        <img class="img-content-pr" src="@/assets/images/shoes3.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1">
+      <div class="box" @click="clickMethodShoes4">
        <img class="img-content-pr" src="@/assets/images/shoes4.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1">
+      <div class="box" @click="clickMethodShoes5">
        <img class="img-content-pr" src="@/assets/images/shoes5.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1">
+      <div class="box" @click="clickMethodShoes6">
        <img class="img-content-pr" src="@/assets/images/shoes6.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1"> 
+      <div class="box" @click="clickMethodShoes7"> 
        <img class="img-content-pr" src="@/assets/images/shoes7.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-      <div class="box" @click="clickMethodShoes1" >
+      <div class="box" @click="clickMethodShoes8" >
        <img class="img-content-pr" src="@/assets/images/shoes8.png" alt="" />
        <p>Product beschrijving</p>
        <p>17,99</p>
