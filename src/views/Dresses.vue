@@ -10,6 +10,7 @@
         <p>Product beschrijving</p>
         <p>17,99</p>
       </div>  
+      <div class="box">
         <img class="img-content-pr" @click="clickMethodDress3" src="../assets/images/dress3.png">
         <p>Product beschrijving</p>
         <p>17,99</p>
@@ -39,7 +40,8 @@
         <p>Product beschrijving</p>
         <p>17,99</p>
       </div>   
-    </div>
+
+    </div> 
 </template>
 
 <script>
@@ -62,7 +64,7 @@ export default {
       this.$router.push({name:"Home"});
     },
     clickMethodDress4() {
-      this.$router.push({name:"Home"});
+      this.$router.push({name:"Dress4"});
     },
     clickMethodDress5() {
       this.$router.push({name:"Home"});
