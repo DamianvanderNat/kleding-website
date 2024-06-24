@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="product-page">
+    <div class="product-page">
       <div class="product-image">
         <img :src="product.image" :alt="product.name" />
       </div>
@@ -13,23 +13,24 @@
   </template>
   
   <script>
+  import DressImg from "@/assets/images/dress4.png"
   export default {
     data() {
       return {
         product: {
-          name: "Mooie jurk",
-          description: "Dit is ene goeie jurk voor in de zomer",
+          name: "Zusss jurk ecru",
+          description: "Deze damesjurk van Zusss is gemaakt van viscose. De jurk zonder mouwen heeft verder een V hals.",
           price: "€17,99",
-          image: require("./assets/images/dress4.jpg") 
+          image: DressImg
+         }
         }
-      };
-    },
+      },
     methods: {
       addToCart() {
         alert("Product added to cart!");
       }
     }
-  };
+  }
   </script>
 
 <style>
@@ -43,7 +44,8 @@
 }
 
 .product-image img {
-  max-width: 100%;
+  max-width: 450px;
+  max-height: 450px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

@@ -7,7 +7,7 @@ import Shoes from "@/views/Shoes.vue";
 import Suits from "@/views/Suits.vue";
 import Shirts from "@/views/Shirts.vue";
 import About from "@/views/About.vue";
-import Dress4 from "@/views/Product/Dress4.vue"
+import Dress4 from "@/views/Product/Dress4.vue";
 
 const routes = [
   {
