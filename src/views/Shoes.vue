@@ -40,10 +40,11 @@
        <p>Product beschrijving</p>
        <p>17,99</p>
       </div>
-   
-       
-    </div>
-   </template>
+
+
+
+  </div>
+ </template>
 
 <script>
  export default {
