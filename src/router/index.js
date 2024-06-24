@@ -7,7 +7,7 @@ import Shoes from "@/views/Shoes.vue";
 import Suits from "@/views/Suits.vue";
 import Shirts from "@/views/Shirts.vue";
 import About from "@/views/About.vue";
-import Bikini1 from "@/views/Products/Bikini1.vue"
+import Dress4 from "@/views/Product/Dress4.vue";
 
 const routes = [
   {
@@ -52,9 +52,10 @@ const routes = [
   },
   {
     path: "/",
-    name: "Bikini1",
-    component: Bikini1,
+    name: "Dress4",
+    component: Dress4,
   },
+
 ];
 
 const router = createRouter({
